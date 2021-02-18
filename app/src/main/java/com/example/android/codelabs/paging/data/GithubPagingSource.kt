@@ -25,7 +25,7 @@ class GithubPagingSource(
             } else {
                 // initial load size = 3 * NETWORK_PAGE_SIZE
                 // ensure we're not requesting duplicating items, at the 2nd request
-                position + (params.loadSize / NETWORK_PAGE_SIZE)
+                position + (params.loadSize / GithubRepository.NETWORK_PAGE_SIZE)
             }
             LoadResult.Page(
                     data = repos,
