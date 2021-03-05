@@ -1,3 +1,5 @@
+package com.example.android.codelabs.paging.ui
+
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData

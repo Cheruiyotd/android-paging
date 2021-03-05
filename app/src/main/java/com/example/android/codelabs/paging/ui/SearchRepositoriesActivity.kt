@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import com.example.android.codelabs.paging.Injection
 import com.example.android.codelabs.paging.databinding.ActivitySearchRepositoriesBinding
 import com.example.android.codelabs.paging.ui.ReposAdapter
+import com.example.android.codelabs.paging.ui.SearchRepositoriesViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.Job
